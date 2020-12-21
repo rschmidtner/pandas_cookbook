@@ -8,6 +8,7 @@ authors = ["rschmidtner <RSchmidtner@NewYorker.de>"]
 python = "^3.6.1"
 pandas = "^1.1.5"
 ipykernel = "^5.4.2"
+pandas-utils = "^0.1.4"
 
 [tool.poetry.dev-dependencies]
 

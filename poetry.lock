@@ -168,6 +168,17 @@ pytz = ">=2017.2"
 test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
 
 [[package]]
+name = "pandas-utils"
+version = "0.1.4"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.6.1,<4.0.0"
+
+[package.dependencies]
+pandas = ">=1.1.5,<2.0.0"
+
+[[package]]
 name = "parso"
 version = "0.7.1"
 description = "A Python Parser"
@@ -322,7 +333,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.1"
-content-hash = "73e98382be3bb46183a037c2dfd74bd5ed58b9db490e874e8011a51f4962b03f"
+content-hash = "c94d03445fedd1afbe6155954f491da1f8acf5c753d71b4bddc55009887067aa"
 
 [metadata.files]
 appnope = [
@@ -464,6 +475,10 @@ pandas = [
     {file = "pandas-1.1.5-cp39-cp39-win32.whl", hash = "sha256:c94ff2780a1fd89f190390130d6d36173ca59fcfb3fe0ff596f9a56518191ccb"},
     {file = "pandas-1.1.5-cp39-cp39-win_amd64.whl", hash = "sha256:edda9bacc3843dfbeebaf7a701763e68e741b08fccb889c003b0a52f0ee95782"},
     {file = "pandas-1.1.5.tar.gz", hash = "sha256:f10fc41ee3c75a474d3bdf68d396f10782d013d7f67db99c0efbfd0acb99701b"},
+]
+pandas-utils = [
+    {file = "pandas_utils-0.1.4-py3-none-any.whl", hash = "sha256:1034be60e894af63534ec32eb1be6198c35c563e193df4b53adb7ff84ca55569"},
+    {file = "pandas_utils-0.1.4.tar.gz", hash = "sha256:dd2072d7c97fe087c72daf45328ad924ee7e03b4964bfd42467bcbc91e905673"},
 ]
 parso = [
     {file = "parso-0.7.1-py2.py3-none-any.whl", hash = "sha256:97218d9159b2520ff45eb78028ba8b50d2bc61dcc062a9682666f2dc4bd331ea"},
